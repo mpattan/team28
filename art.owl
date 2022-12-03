@@ -1,0 +1,1953 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#"
+     xml:base="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasCreditLine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasCreditLine">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#CreditLine"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasDepartment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasDepartment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Department"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasMedium -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasMedium">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Medium"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasObjectID -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasObjectID">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <owl:inverseOf rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasTitle"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasObjectName -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasObjectName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasRepository -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasRepository">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Repository"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasTitle -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#forTitle -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#forTitle">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasAccessionYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasAccessionYear">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#AccessionYear"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#positiveInteger"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasArtistDisplayName -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasArtistDisplayName">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ArtistDisplayName"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasDimesnions -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasDimesnions">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Dimensions"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasObjectDate -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasObjectDate">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectDate"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasObjectNumber -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#hasObjectNumber">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectNumber"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#AccessionYear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#AccessionYear"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ArtistDisplayName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ArtistDisplayName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#CreditLine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#CreditLine"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Department -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Department"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Dimensions -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Dimensions"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Medium -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Medium"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectDate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectDate"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectNumber -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectNumber"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Repository -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Repository"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Acorn_Clock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Acorn_Clock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasCreditLine rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Mrs._Paul_Moore,_1970"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasMedium rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Mahogany,_laminated"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Clock"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acorn Clock</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1970</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Forestville Manufacturing Company</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">24 3/8 x 14 5/8 x 5 1/8 in. (61.9 x 37.1 x 13 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1893</hasObjectDate>
+        <hasObjectNumber rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1970.289.6</hasObjectNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Ale_Glass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Ale_Glass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Ale_glass"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ale Glass</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1946</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">New England Glass Company</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">H. 6 9/16 in. (16.7 cm); Diam. 3 in. (7.6 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1830</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Ale_glass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Ale_glass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Andiron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Andiron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#andiron"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Andiron</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1989</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Bailey</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">16 1/8 x 10 x 14 7/8 in. (41 x 25.4 x 37.8 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1792</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_Elements -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_Elements">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_elements"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Architectural Elements</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1968</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Augustus Truesdell</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dimensions unavailable</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1868</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_elements -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_elements">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Argand_Lamp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Argand_Lamp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Argand_lamp"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Argand Lamp</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1983</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Messenger Company</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">17 7/8 x 17 x 7 7/8 in. (45.4 x 43.2 x 20 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1835</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Argand_lamp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Argand_lamp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Armchair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Armchair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Astral_Lamp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Astral_Lamp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Astral_lamp"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astral Lamp</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1968</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Archer and Warner</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">21 1/2 x 9 3/4 in. (54.6 x 24.8 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1855</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Astral_lamp -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Astral_lamp">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Autumn_Landscape -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Autumn_Landscape">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Window"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Autumn Landscape</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1925</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiffany Studios|Agnes F. Northrop</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">132 x 102 in. (335.3 x 259.1 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1923</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bedroom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bedroom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bela_Lyon_Pratt -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bela_Lyon_Pratt">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ArtistDisplayName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Book -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Book">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Border_Tile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Border_Tile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Tile"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Border Tile</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1971</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">J. and J. G. Low Art Tile Works</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">6 1/8 x 2 1/8 x 3/8 in. (15.6 x 5.4 x 1 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1881</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bowl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bowl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bust -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bust">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bust_of_Abraham_Lincoln -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bust_of_Abraham_Lincoln">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasCreditLine rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Teunis_G._B._Cortelyou,_1964"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasMedium rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Pressed_glass"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bust"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bust of Abraham Lincoln</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1964</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">James Gillinder and Sons</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">2 3/4 x 3 1/2 x 2 3/4 in. (7 x 8.9 x 7 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1876</hasObjectDate>
+        <hasObjectNumber rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">64.62</hasObjectNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Century_Vase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Century_Vase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Vase"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Century Vase</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1969</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Karl L. H. Müller|Union Porcelain Works</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">H. 12 3/4 in. (32.4 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1876</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Christian_Gobrecht -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Christian_Gobrecht">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ArtistDisplayName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Clock -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Clock">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Coin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Coin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Drawing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Drawing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure_of_Admiral_George_Rodney -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure_of_Admiral_George_Rodney">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Figure of Admiral George Rodney</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1938</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pierre Stephan</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">H. 12 in. (30.5 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1785</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure_of_Admiral_Samuel_Hood -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure_of_Admiral_Samuel_Hood">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Figure of Admiral Samuel Hood</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1938</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pierre Stephan</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">H. 12 3/8 in. (31.4 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1785</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Five-dollar_Indian_Head_Coin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Five-dollar_Indian_Head_Coin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasCreditLine rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1979"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasMedium rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gold"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Coin"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-dollar Indian Head Coin</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1979</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bela Lyon Pratt</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dimensions unavailable</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1910</hasObjectDate>
+        <hasObjectNumber rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1979.486.4</hasObjectNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Five-dollar_Liberty_Head_Coin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Five-dollar_Liberty_Head_Coin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasCreditLine rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1979"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasMedium rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gold"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Coin"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Five-dollar Liberty Head Coin</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1979</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christian Gobrecht</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dimensions unavailable</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1907</hasObjectDate>
+        <hasObjectNumber rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1979.486.5</hasObjectNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Folding_Armchair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Folding_Armchair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Folding_armchair"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Folding Armchair</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1975</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marks Adjustable Folding Chair Company</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">45 3/4 x 29 x 27 1/2 in. (116.2 x 73.7 x 69.9 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1877</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Folding_armchair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Folding_armchair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Frame -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Frame">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#frame"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frame</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1919</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stanford White</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">83 x 58 1/2 in. (210.8 x 148.6 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1870</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gold -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gold">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Medium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#James_Barton_Longacre -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#James_Barton_Longacre">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ArtistDisplayName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#John_Gaines_III -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#John_Gaines_III">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ArtistDisplayName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Loggia_elements -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Loggia_elements">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Necklace -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Necklace">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Necklace_with_Pendant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Necklace_with_Pendant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Necklace"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Necklace with Pendant</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1953</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tiffany &amp; Co.|Louis Comfort Tiffany</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Overall: L. 27 in. (68.6 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1910</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#No_Bio -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#No_Bio"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#No_Repository -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#No_Repository">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Repository"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#One-dollar_Liberty_Head_Coin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#One-dollar_Liberty_Head_Coin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasCreditLine rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1979"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasMedium rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gold"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Coin"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">One-dollar Liberty Head Coin</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1979</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Barton Longacre</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal"></hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1853</hasObjectDate>
+        <hasObjectNumber rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1979.486.1</hasObjectNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Painting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Painting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Panel -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Panel">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Plaque_Portrait_of_Benjamin_Franklin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Plaque_Portrait_of_Benjamin_Franklin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Painting"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Plaque Portrait of Benjamin Franklin</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1883</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Louis Benjamin Huber Defeuille</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">3 1/4 x 2 5/8 in. (8.3 x 6.7 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1800</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Pressed_glass -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Pressed_glass">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Medium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Punch_Bowl -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Punch_Bowl">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bowl"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Punch Bowl</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1948</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Adrian Bancker</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Overall: 4 x 8 9/16 in. (10.2 x 21.7 cm); 25 oz. 5 dwt. (785.8 g)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1750</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Reclining_Armchair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Reclining_Armchair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#reclining_armchair"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Reclining Armchair</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1968</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">George Washington Maher</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">38 1/2 x 26 x 33 in. (97.8 x 66 x 83.8 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1914</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Revolving_Armchair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Revolving_Armchair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Revolving_armchair"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Revolving Armchair</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1979</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frank Lloyd Wright</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">38 x 20 3/4 x 24 3/4 in. (96.5 x 52.7 x 62.9 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1904</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Revolving_armchair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Revolving_armchair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Rocking_Chair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Rocking_Chair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#rocking_chair"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rocking Chair</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1971</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hudson and Brooks</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">43 1/2 x 27 5/8 x 20 3/4 in. (110.5 x 70.2 x 52.7 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1897</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Room -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Room">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Side_Chair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Side_Chair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Side_Chairs"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Side Chair</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1976</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Conrad Henninger</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">40 x 25 1/2 x 34 1/2 in. (101.6 x 64.8 x 87.6 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1847</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Side_Chairs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Side_Chairs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Splat-back_armchair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Splat-back_armchair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Armchair"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Splat-back armchair</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1952</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Gaines III</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">40 5/8 x 27 x 17 in. (103.2 x 68.6 x 43.2 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1735</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Teapot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Teapot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#teapot"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Teapot</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">2006</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Wood and Hughes</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">11 1/4 x 9 15/16 in. (28.6 x 25.2 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1862</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Ten-dollar_Liberty_Head_Coin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Ten-dollar_Liberty_Head_Coin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasCreditLine rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1980"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasMedium rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gold"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Coin"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ten-dollar Liberty Head Coin</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1980</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christian Gobrecht</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dimensions unavailable</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1901</hasObjectDate>
+        <hasObjectNumber rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1980.264.5</hasObjectNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_Adams_Vase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_Adams_Vase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Vase"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#No_Repository"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Adams Vase</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1904</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paulding Farnham|Tiffany &amp; Co.</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Overall: 19 7/16 x 13 x 9 1/4 in. (49.4 x 33 x 23.5 cm); 352 oz. 18 dwt. (10977 g)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1893</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Department"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Tile -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Tile">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Twenty-dollar_Liberty_Head_Coin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Twenty-dollar_Liberty_Head_Coin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasCreditLine rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1979"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasMedium rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gold"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Coin"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Twenty-dollar Liberty Head Coin</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1979</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">James Barton Longacre</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dimensions unavailable</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1876</hasObjectDate>
+        <hasObjectNumber rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1979.486.7</hasObjectNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Two-and-a-half-dollar_Indian_Head_Coin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Two-and-a-half-dollar_Indian_Head_Coin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasCreditLine rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1979"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasMedium rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gold"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Coin"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two-and-a-half-dollar Indian Head Coin</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1979</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bela Lyon Pratt</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dimensions unavailable</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1912</hasObjectDate>
+        <hasObjectNumber rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1979.486.3</hasObjectNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Two-and-a-half-dollar_Liberty_Head_Coin -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Two-and-a-half-dollar_Liberty_Head_Coin">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasCreditLine rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1979"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasMedium rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gold"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Coin"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Two-and-a-half-dollar Liberty Head Coin</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1979</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Christian Gobrecht</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dimensions unavailable</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1907</hasObjectDate>
+        <hasObjectNumber rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1979.486.2</hasObjectNumber>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Unavailable -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Unavailable"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Vase -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Vase">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Window -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Window">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#active_ca._1823 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#active_ca._1823"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#andiron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#andiron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#frame -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#frame">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#reclining_armchair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#reclining_armchair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#rocking_chair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#rocking_chair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#teapot -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#teapot">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#One-dollar_Liberty_Head_Coin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#10 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#10">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Two-and-a-half-dollar_Indian_Head_Coin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#108 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#108">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Andiron"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#11 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#11">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Two-and-a-half-dollar_Liberty_Head_Coin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#12 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#12">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Twenty-dollar_Liberty_Head_Coin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#13 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#13">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Five-dollar_Indian_Head_Coin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#130 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#130">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Frame"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#131 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#131">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_Elements"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#133 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#133">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_Elements_from_Laurelton_Hall,_Oyster_Bay,_New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#134 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#134">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_elements_from_a_Retiring_Room_in_the_North_Family_Dwelling_American,_New_Lebanon,_New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#139 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#139">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Argand_Lamp"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#14 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#14">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Five-dollar_Liberty_Head_Coin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#150 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#150">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Heads_and_Feet_of_Two_Javanese_Dancers_(from_Sketchbook_of_Javanese_Dancers)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1531 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1531">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Century_Vase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1703–1772 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1703–1772"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1784–1873 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1784–1873"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1785–1844 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1785–1844"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1820–1887,1863–ca._1922 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1820–1887,1863–ca._1922"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1835–1853 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1835–1853"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1835–1898 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1835–1898"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1837–present -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1837–present"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1837–present,American,_New_York_1848–1933_New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1837–present,American,_New_York_1848–1933_New_York"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1845–99 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1845–99"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1867–1917 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1867–1917"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1877–97 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1877–97"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1902–32,American,_Flushing,_New_York_1857–1953_New_York,_New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#1902–32,American,_Flushing,_New_York_1857–1953_New_York,_New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#194 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#194">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Hunting_Birds,_after_Egyptian_Relief_Sculpture_(from_Scrapbook)"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#2 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#2">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Ten-dollar_Liberty_Head_Coin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#203 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#203">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Splat-back_armchair"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#205 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#205">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Teapot"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#223 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#223">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Rocking_Chair"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#224 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#224">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Reclining_Armchair"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#229 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#229">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Folding_Armchair"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#243 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#243">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Revolving_Armchair"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#271 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#271">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Child&apos;s_Armchair"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#280 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#280">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#282 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#282">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Autumn_Landscape"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#285 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#285">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Baby&apos;s_Bottle"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#33 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#33">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bust_of_Abraham_Lincoln"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#34 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#34">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Acorn_Clock"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#35 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#35">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_Adams_Vase"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#36 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#36">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Side_Chair"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#37 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#37">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure_of_Admiral_George_Rodney"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#38 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#38">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Figure_of_Admiral_Samuel_Hood"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#40 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#40">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Ale_Glass"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#466 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#466">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Plaque_Portrait_of_Benjamin_Franklin"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#5405 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#5405">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Necklace_with_Pendant"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#5421 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#5421">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Book:_Of_the_Nature_of_the_Gods"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#5500 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#5500">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Panel_from_the_Auditorium_Building,_Chicago"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#5539 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#5539">
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Stair_hall_from_the_Metcalfe_House,_Buffalo,_New_York"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#578 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#578">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Border_Tile"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#781 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#781">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectID"/>
+        <hasTitle rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Punch_Bowl"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_1704–1743 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_1704–1743"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_1810–1872 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_1810–1872"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_1861–ca._1930 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_1861–ca._1930"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Boston,_Massachusetts_1856–1924_Chicago,_Illinois -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Boston,_Massachusetts_1856–1924_Chicago,_Illinois"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Chelsea,_Massachusetts,_1877–1903 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Chelsea,_Massachusetts,_1877–1903"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Delaware_County,_Pennsylvania_1794–1869_Philadelphia,_Pennsylvania -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Delaware_County,_Pennsylvania_1794–1869_Philadelphia,_Pennsylvania"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_East_Cambridge,_Massachusetts,_1818–1888 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_East_Cambridge,_Massachusetts,_1818–1888"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Florence_1856–1925_London -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Florence_1856–1925_London"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_New_York_1848–1933_New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_New_York_1848–1933_New_York"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_New_York_1853–1906_New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_New_York_1853–1906_New_York"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Philadelphia,_Pennsylvania -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Philadelphia,_Pennsylvania"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Richland_Center,_Wisconsin_1867–1959_Phoenix,_Arizona -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_Richland_Center,_Wisconsin_1867–1959_Phoenix,_Arizona"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_active_New_York,_1736–1815 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_active_New_York,_1736–1815"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_active_ca._1750–present -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#American,_active_ca._1750–present"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_Elements_from_Laurelton_Hall,_Oyster_Bay,_New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_Elements_from_Laurelton_Hall,_Oyster_Bay,_New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Loggia_elements"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Architectural Elements from Laurelton Hall, Oyster Bay, New York</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1978</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Louis Comfort Tiffany</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">21 x 23 ft. (640.1 x 701 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1905</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_elements_from_a_Retiring_Room_in_the_North_Family_Dwelling_American,_New_Lebanon,_New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Architectural_elements_from_a_Retiring_Room_in_the_North_Family_Dwelling_American,_New_Lebanon,_New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Bedroom"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Architectural elements from a Retiring Room in the North Family Dwelling American, New Lebanon, New York</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1972</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">United Society of Believers in Christ’s Second Appearing (“Shakers”)</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">1830</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1830</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Baby&apos;s_Bottle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Baby&apos;s_Bottle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Baby&apos;s_bottle"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Baby&apos;s Bottle</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1943</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thomas Danforth Boardman</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">H. 6 1/2 in. (16.5 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1810</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Baby&apos;s_bottle -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Baby&apos;s_bottle">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#ObjectName"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Book:_Of_the_Nature_of_the_Gods -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Book:_Of_the_Nature_of_the_Gods">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Book"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Book: Of the Nature of the Gods</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1939</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Marcus Tullius Cicero|T. Davies</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">Dimensions unavailable</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1775</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Child&apos;s_Armchair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Child&apos;s_Armchair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Armchair"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Child&apos;s Armchair</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1980</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Pottier and Stymus Manufacturing Company</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">27 x 18 x 15 1/4 in. (68.6 x 45.7 x 38.7 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1870</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#French,_active_ca._1770–95 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#French,_active_ca._1770–95"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1979 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1979">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#CreditLine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1980 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Heinz_L._Stoppelmann,_1980">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#CreditLine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Mrs._Paul_Moore,_1970 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Mrs._Paul_Moore,_1970">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#CreditLine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Teunis_G._B._Cortelyou,_1964 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Gift_of_Teunis_G._B._Cortelyou,_1964">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#CreditLine"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Heads_and_Feet_of_Two_Javanese_Dancers_(from_Sketchbook_of_Javanese_Dancers) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Heads_and_Feet_of_Two_Javanese_Dancers_(from_Sketchbook_of_Javanese_Dancers)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Drawing"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Heads and Feet of Two Javanese Dancers (from Sketchbook of Javanese Dancers)</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1950</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Singer Sargent</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5 1/2 x 8 1/2 in. (14 x 21.6 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1889</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Hunting_Birds,_after_Egyptian_Relief_Sculpture_(from_Scrapbook) -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Hunting_Birds,_after_Egyptian_Relief_Sculpture_(from_Scrapbook)">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Drawing"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hunting Birds, after Egyptian Relief Sculpture (from Scrapbook)</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1950</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Singer Sargent</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">5 1/4 x 4 3/4 in. (13.3 x 12.1 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1878</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Mahogany,_laminated -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Mahogany,_laminated">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Medium"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Repository"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Panel_from_the_Auditorium_Building,_Chicago -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Panel_from_the_Auditorium_Building,_Chicago">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Panel"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Panel from the Auditorium Building, Chicago</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1984</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Louis Henry Sullivan</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">10 7/8 x 40 3/4 x 1 1/8 in. (27.6 x 103.5 x 2.9 cm)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1886</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Roman,_106_B.C.–40_B.C.,British,_London -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Roman,_106_B.C.–40_B.C.,British,_London"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Stair_hall_from_the_Metcalfe_House,_Buffalo,_New_York -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Stair_hall_from_the_Metcalfe_House,_Buffalo,_New_York">
+        <rdf:type rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Title"/>
+        <hasDepartment rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#The_American_Wing"/>
+        <hasObjectName rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Room"/>
+        <hasRepository rdf:resource="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#Metropolitan_Museum_of_Art,_New_York,_NY"/>
+        <forTitle rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stair hall from the Metcalfe House, Buffalo, New York</forTitle>
+        <hasAccessionYear rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1980</hasAccessionYear>
+        <hasArtistDisplayName rdf:datatype="http://www.w3.org/2001/XMLSchema#string">McKim, Mead and White</hasArtistDisplayName>
+        <hasDimesnions rdf:datatype="http://www.w3.org/2000/01/rdf-schema#Literal">14 x 25 x 42 ft. (168 x 300 x 504 in.)</hasDimesnions>
+        <hasObjectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#positiveInteger">1884</hasObjectDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#active_ca._1859–1910 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#active_ca._1859–1910"/>
+    
+
+
+    <!-- http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#active_ca._1888–1932 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/vthalla2/ontologies/2022/10/untitled-ontology-19#active_ca._1888–1932"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q13476260 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q13476260"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q1370167 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1370167"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q1541 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q1541"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q155626 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q155626"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q17083157 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q17083157"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q18356506 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q18356506"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q19587243 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q19587243"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q2106610 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q2106610"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q243240 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q243240"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q312950 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q312950"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q3806459 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q3806459"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q4881787 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q4881787"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q5109648 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q5109648"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q55720552 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q55720552"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q5604 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q5604"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q572735 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q572735"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q66827450 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q66827450"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q82160313 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q82160313"/>
+    
+
+
+    <!-- https://www.wikidata.org/wiki/Q99264077 -->
+
+    <owl:NamedIndividual rdf:about="https://www.wikidata.org/wiki/Q99264077"/>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

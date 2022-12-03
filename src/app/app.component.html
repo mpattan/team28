@@ -1,0 +1,159 @@
+<!-- <div class="container-layout w-100" fxLayout="row">
+
+      <div fxLayout="column" fxLayoutGap="20px" class="m-3 w-100">
+            <div class="h2 project-header" fxLayoutAlign="center">
+                  Trajectories
+            </div>
+            <div fxLayout="column">
+                  <div fxLayout="row" fxLayoutAlign="start" class="m-2 w-100">
+                        <div fxLayout="center" fxLayoutAlign="space-around center" fxFlex="20" class="w-50 h-50 border border-primary">
+                              <DeckGL initialViewState=INITIAL_VIEW_STATE controller=true layers=layers></DeckGL>
+                        </div>
+                        <form [formGroup]="inputForm" class="mt-2 w-100">
+                              <div fxLayout="column" fxLayoutAlign="start" class="profile">
+                                    <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px">
+                                          <div class="h5" fxFlex="25">Choose Input file</div>
+                                          <div appearance="fill" fxFlex="25">
+                                                <input placeholder="Choose File path" formControlName="inputPath"
+                                                      type="file" accept=".json" (change)="getPath($event)">
+                                          </div>
+                                    </div>
+                              </div>
+                        </form>
+                  </div>
+            </div>
+            <div fxLayout="row" fxLayoutAlign="space-around start" class="w-100">
+                  <div fxLayout="column" fxFlex="50">
+                        <div class="h4 input-header">
+                              Enter Inputs for Spatio Temporal Query
+                        </div>
+                        <div fxLayout="row" fxLayoutAlign="start" class="w-100">
+                              <form [formGroup]="spatioTemporalRangeForm" class="w-100">
+                                    <div fxLayout="column" fxLayoutAlign="start" class="profile">
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px">
+                                                <div class="h5" fxFlex="35">Minimum Latitude</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number" placeholder="Enter Minimum Latitude"
+                                                            formControlName="minLatitude">
+                                                </mat-form-field>
+                                          </div>
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                                                <div class="h5" fxFlex="35">Maximum Latitude</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number" placeholder="Enter Maximum Latitude"
+                                                            formControlName="maxLatitude">
+                                                </mat-form-field>
+                                          </div>
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                                                <div class="h5" fxFlex="35">Minimum Longitude</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number"
+                                                            placeholder="Enter Minimum Longitude"
+                                                            formControlName="minLongitude">
+                                                </mat-form-field>
+                                          </div>
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                                                <div class="h5" fxFlex="35">Maximum Longitude</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number"
+                                                            placeholder="Enter Maximum Longitude"
+                                                            formControlName="maxLongitude">
+                                                </mat-form-field>
+                                          </div>
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                                                <div class="h5" fxFlex="35">Start Time</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number" placeholder="Enter Start Time"
+                                                            formControlName="startTime">
+                                                </mat-form-field>
+                                          </div>
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                                                <div class="h5" fxFlex="35">End Time</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number"
+                                                            placeholder="Enter End Time Longitude"
+                                                            formControlName="endTime">
+                                                </mat-form-field>
+                                          </div>
+                                    </div>
+                              </form>
+                        </div>
+                  </div>
+                  <div fxLayout="column" fxFlex="50">
+                        <div class="h4 input-header">
+                              Enter Inputs for Spatial Range Query
+                        </div>
+                        <div fxLayout="row" fxLayoutAlign="start" class="w-100" fxFlex="50">
+                              <form [formGroup]="spatialRangeForm" class="w-100">
+                                    <div fxLayout="column" fxLayoutAlign="start" class="profile">
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px">
+                                                <div class="h5" fxFlex="35">Minimum Latitude</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number" placeholder="Enter Minimum Latitude"
+                                                            formControlName="minLatitude">
+                                                </mat-form-field>
+                                          </div>
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                                                <div class="h5" fxFlex="35">Maximum Latitude</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number" placeholder="Enter Maximum Latitude"
+                                                            formControlName="maxLatitude">
+                                                </mat-form-field>
+                                          </div>
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                                                <div class="h5" fxFlex="35">Minimum Longitude</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number"
+                                                            placeholder="Enter Minimum Longitude"
+                                                            formControlName="minLongitude">
+                                                </mat-form-field>
+                                          </div>
+                                          <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                                                <div class="h5" fxFlex="35">Maximum Longitude</div>
+                                                <mat-form-field appearance="fill" fxFlex="50">
+                                                      <input matInput type="number"
+                                                            placeholder="Enter Maximum Longitude"
+                                                            formControlName="maxLongitude">
+                                                </mat-form-field>
+                                          </div>
+                                    </div>
+                              </form>
+                        </div>
+                  </div>
+
+            </div>
+            <div fxLayout="column">
+                  <div class="h4 input-header">
+                        Enter Inputs for KNN Query
+                  </div>
+                  <div fxLayout="row" fxLayoutAlign="start" class="w-100">
+                        <form [formGroup]="knnForm" class=" w-100">
+                              <div fxLayout="column" fxLayoutAlign="start" class="profile">
+                                    <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="20px">
+                                          <div class="h5" fxFlex="25">Trajectory Id</div>
+                                          <mat-form-field appearance="fill" fxFlex="25">
+                                                <input matInput type="number" placeholder="Enter trajectory Id"
+                                                      formControlName="trajectoryId">
+                                          </mat-form-field>
+                                    </div>
+                                    <div fxLayout="row" fxLayoutAlign="start center" fxLayoutGap="15px">
+                                          <div class="h5" fxFlex="25">K Value</div>
+                                          <mat-form-field appearance="fill" fxFlex="25">
+                                                <input matInput type="number" placeholder="Enter k value"
+                                                      formControlName="kValue">
+                                          </mat-form-field>
+                                    </div>
+                              </div>
+                        </form>
+                  </div>
+            </div>
+            <div fxLayout="row" fxLayoutAlign="center">
+                  <button mat-raised-button class="hospital-button" fxlayoutGap="10px" (click)="getTrajectories()">
+                        <div fxLayout="row" fxLayoutGap="20px" fxLayoutAlign="center center"><span>Display Trips
+                                    layer</span>
+                        </div>
+                  </button>
+            </div>
+      </div>
+</div> -->
+<router-outlet></router-outlet>

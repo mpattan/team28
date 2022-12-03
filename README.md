@@ -10,7 +10,7 @@
     e) ./fuseki-server --mem /art
 5) go to : http://ec2-54-189-62-129.us-west-2.compute.amazonaws.com:3030/#/dataset/art/query and upload all the ontology files
 6) go to https://ser531-team28.web.app and use our application
-7) example value for art name : Two-and-a-half-dollar_Liberty_Head_Coin
+7) example value for art name : Two-and-a-half-dollar Liberty Head Coin
 8) example value for artist name : Christian Gobrecht
 
 
